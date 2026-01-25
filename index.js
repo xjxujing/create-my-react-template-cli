@@ -48,10 +48,18 @@ async function main() {
 
   console.log(`\n🚀 Initializing project: ${projectName}...`);
 
+  // Check if directory already exists
+  const fs = await import('fs');
+  if (fs.existsSync(projectName)) {
+    console.error(`\n❌ Failed to create project: Directory "${projectName}" already exists.`);
+    console.error('ℹ️  Please choose a different project name.');
+    rl.close();
+    process.exit(1);
+  }
+
   try {
     const emitter = degit('xjxujing/react-template', {
       cache: false,
-      force: true,
       verbose: true,
     });
 

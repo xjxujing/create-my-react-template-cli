@@ -1,6 +1,6 @@
 {
   "name": "create-koko-react-app",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A simple CLI to create React apps from custom template",
   "bin": {
     "create-koko-react-app": "./index.js"
@@ -16,5 +16,11 @@
     "template"
   ],
   "author": "xjxujing",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "npm version patch",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  }
 }
