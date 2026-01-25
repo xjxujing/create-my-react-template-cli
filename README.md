@@ -4,8 +4,8 @@ A simple CLI tool for quickly creating new projects from custom React templates.
 
 ## Language Switch
 
-**English Version:** [README.md](README.md) (Current version)
-**Chinese Version:** [README-zh.md](README-zh.md)
+**English:** [README.md](README.md)
+**中文:** [README-zh.md](README-zh.md)
 
 ---
 
