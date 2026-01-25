@@ -1,0 +1,20 @@
+{
+  "name": "create-koko-react-app",
+  "version": "0.0.3",
+  "description": "A simple CLI to create React apps from custom template",
+  "bin": {
+    "create-koko-react-app": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "degit": "^2.8.4"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "scaffold",
+    "template"
+  ],
+  "author": "xjxujing",
+  "license": "MIT"
+}
