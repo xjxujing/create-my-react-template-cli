@@ -12,7 +12,7 @@ A simple CLI tool for quickly creating new projects from custom React templates.
 ## Features
 
 - 🚀 Quickly create projects based on React + TypeScript + Vite
-- 📦 Built-in Tailwind CSS 4.x and Shadcn UI component library
+- 📦 Built-in Tailwind CSS 4.x
 - 🔧 Automatically initialize Git repository
 - 📝 Provides interactive command-line interface
 - 🛠️ Supports specifying project name via command-line arguments
@@ -83,39 +83,6 @@ The created project includes the following npm scripts:
   }
 }
 ```
-
-## Development Instructions
-
-### Local Development
-
-If you want to modify and develop this CLI tool:
-
-```bash
-# Clone the repository
-git clone https://github.com/xjxujing/create-my-react-template-cli.git
-
-# Enter the project directory
-cd create-my-react-template-cli
-
-# Install dependencies
-npm install
-
-# Link to global
-npm link
-
-# Now you can use the locally modified version
-create-koko-react-app my-test-project
-```
-
-### Publishing
-
-The project is configured with automatic version updates. Use the following command to publish a new version:
-
-```bash
-npm publish
-```
-
-This will automatically increment the patch version number and publish to npm.
 
 ## Tech Stack
 

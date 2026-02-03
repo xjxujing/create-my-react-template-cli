@@ -84,39 +84,6 @@ npx create-koko-react-app my-react-app
 }
 ```
 
-## 开发说明
-
-### 本地开发
-
-如果您想修改和开发这个 CLI 工具：
-
-```bash
-# 克隆仓库
-git clone https://github.com/xjxujing/create-my-react-template-cli.git
-
-# 进入项目目录
-cd create-my-react-template-cli
-
-# 安装依赖
-npm install
-
-# 链接到全局
-npm link
-
-# 现在您可以使用本地修改的版本
-create-koko-react-app my-test-project
-```
-
-### 发布
-
-项目配置了自动版本更新功能。使用以下命令发布新版本：
-
-```bash
-npm publish
-```
-
-这会自动增加补丁版本号并发布到 npm。
-
 ## 技术栈
 
 - **Node.js** - 运行环境
