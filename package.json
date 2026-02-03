@@ -1,6 +1,6 @@
 {
   "name": "create-koko-react-app",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple CLI to create React apps from custom template",
   "bin": {
     "create-koko-react-app": "./index.js"
