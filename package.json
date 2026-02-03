@@ -17,8 +17,20 @@
   ],
   "author": "xjxujing",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "README-zh.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjxujing/create-my-react-template-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xjxujing/create-my-react-template-cli/issues"
+  },
+  "homepage": "https://github.com/xjxujing/create-my-react-template-cli#readme",
   "scripts": {
-    "prepublishOnly": "npm version patch",
     "release:patch": "npm version patch && npm publish",
     "release:minor": "npm version minor && npm publish",
     "release:major": "npm version major && npm publish"
